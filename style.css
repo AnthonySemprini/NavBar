@@ -31,7 +31,8 @@ nav a{
     padding: 10px 0px;
 }
 nav a:hover{
-    color: red;
+    /* color: red; */
+    text-decoration: underline;
     border-bottom: 2px solid gold;
 }
 .sous{
@@ -51,9 +52,9 @@ nav > ul li:hover .sous{
 }
 .sous a:hover{
     border-bottom: none;
-    background-color: aquamarine;
+    background-color: rgb(233, 233, 233);
 }
-.arbre{
+.logo{
     width: 100px;
     height: 100px;
 }
